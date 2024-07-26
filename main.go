@@ -148,7 +148,7 @@ func getFoodFact() (string, error) {
 
 func main() {
 	for {
-		mainMenu := []string {
+		mainMenu := []string{
 			"Main menu:\n",
 			"1. Get a recipe",
 			"2. Learn a surprising food fact",
@@ -218,7 +218,7 @@ func main() {
 						case "y":
 							saveData(recipe)
 							time.Sleep(1 * time.Second)
-							fmt.Println("Recipe saved successfully...")
+							fmt.Println("Recipe saved successfully!")
 							fmt.Println("\nReturned to main menu\n ")
 							time.Sleep(1 * time.Second)
 							main()
@@ -241,7 +241,7 @@ func main() {
 
 					recipe, err := getData(category, ingredient)
 					if err != nil {
-						fmt.Println("Case 1: error getting recipe")
+						fmt.Println("Case 2: error getting recipe")
 						return
 					}
 
@@ -256,7 +256,7 @@ func main() {
 						case "y":
 							saveData(recipe)
 							time.Sleep(1 * time.Second)
-							fmt.Println("Recipe saved successfully...")
+							fmt.Println("Recipe saved successfully!")
 							fmt.Println("\nReturned to main menu\n ")
 							time.Sleep(1 * time.Second)
 							main()
@@ -279,7 +279,7 @@ func main() {
 
 					recipe, err := getData(category, ingredient)
 					if err != nil {
-						fmt.Println("Case 1: error getting recipe")
+						fmt.Println("Case 3: error getting recipe")
 						return
 					}
 
@@ -294,7 +294,7 @@ func main() {
 						case "y":
 							saveData(recipe)
 							time.Sleep(1 * time.Second)
-							fmt.Println("Recipe saved successfully...")
+							fmt.Println("Recipe saved successfully!")
 							fmt.Println("\nReturned to main menu\n ")
 							time.Sleep(1 * time.Second)
 							main()
@@ -317,7 +317,7 @@ func main() {
 
 					recipe, err := getData(category, ingredient)
 					if err != nil {
-						fmt.Println("Case 1: error getting recipe")
+						fmt.Println("Case 4: error getting recipe")
 						return
 					}
 
@@ -332,7 +332,7 @@ func main() {
 						case "y":
 							saveData(recipe)
 							time.Sleep(1 * time.Second)
-							fmt.Println("Recipe saved successfully...")
+							fmt.Println("Recipe saved successfully!")
 							fmt.Println("\nReturned to main menu\n ")
 							time.Sleep(1 * time.Second)
 							main()
@@ -355,7 +355,7 @@ func main() {
 
 					recipe, err := getData(category, ingredient)
 					if err != nil {
-						fmt.Println("Case 1: error getting recipe")
+						fmt.Println("Case 5: error getting recipe")
 						return
 					}
 
@@ -370,7 +370,7 @@ func main() {
 						case "y":
 							saveData(recipe)
 							time.Sleep(1 * time.Second)
-							fmt.Println("Recipe saved successfully...")
+							fmt.Println("Recipe saved successfully!")
 							fmt.Println("\nReturned to main menu\n ")
 							time.Sleep(1 * time.Second)
 							main()
@@ -393,7 +393,7 @@ func main() {
 
 					recipe, err := getData(category, ingredient)
 					if err != nil {
-						fmt.Println("Case 1: error getting recipe")
+						fmt.Println("Case 6: error getting recipe")
 						return
 					}
 
@@ -408,7 +408,7 @@ func main() {
 						case "y":
 							saveData(recipe)
 							time.Sleep(1 * time.Second)
-							fmt.Println("Recipe saved successfully...")
+							fmt.Println("Recipe saved successfully!")
 							fmt.Println("\nReturned to main menu\n ")
 							time.Sleep(1 * time.Second)
 							main()
